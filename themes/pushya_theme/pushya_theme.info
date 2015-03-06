@@ -1,0 +1,26 @@
+name = pushya_theme
+description = The intension of this theme to be subtheme author venkatramana mamidela
+core = 7.x
+base theme = business_responsive_theme
+version = "7.x-1.2"
+
+engine = phptemplate
+stylesheets[all][] = style.css
+stylesheets[all][] = media.css
+scripts[] = js/custom.js
+
+regions[sidebar_first]  = First Sidebar
+regions[sidebar_second] = Second Sidebar
+regions[slideshow]      = Slideshow
+regions[front_welcome]  = Front Welcome
+regions[top_first]      = First top
+regions[top_second]     = Second top
+regions[top_third]      = Third top
+regions[content]        = Content
+regions[content_top]    = Content Top
+regions[footer]         = Footer
+regions[footer_first]   = First Bottom
+regions[footer_second]  = Second Bottom
+regions[footer_third]   = Third Bottom
+settings[twitter_username] = "vmamidela"
+settings[facebook_username] = "vmamidela"
