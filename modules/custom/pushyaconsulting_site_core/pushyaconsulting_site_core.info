@@ -1,4 +1,4 @@
-name = Pushya Site Core
+name = Pushyaconsulting Site Core
 description = This modules does all the prerequists needed for the site
 core = 7.x
-package = Pushya Site Core
+package = Pushyaconsulting Site Core
