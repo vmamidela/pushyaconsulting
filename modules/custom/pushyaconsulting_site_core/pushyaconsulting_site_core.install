@@ -1,1 +1,26 @@
 <?php
+
+/**
+* @file
+* Install, update and uninstall function
+*/
+
+/**
+* Implements hook_install().
+*/
+
+function pushyaconsulting_site_core_install() {
+  pushyaconsulting_site_core_update_7001();
+}
+
+function pushyaconsulting_site_core_update_7001() {
+theme_enable(array(
+ 'business_responsive_theme',
+ 'pushya_theme',
+));
+
+variable_set('admin_theme', 'bartik');
+variable_set('theme_default', 'pushya_theme');
+
+}
+
