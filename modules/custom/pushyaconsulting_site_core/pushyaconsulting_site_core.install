@@ -21,6 +21,7 @@ theme_enable(array(
 
 variable_set('admin_theme', 'bartik');
 variable_set('theme_default', 'pushya_theme');
+module_enable(array('contenttypes'));
 
 }
 
