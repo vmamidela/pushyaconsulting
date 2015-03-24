@@ -1,0 +1,14 @@
+name = MenuLinks_features
+description = MenuLinks_features
+core = 7.x
+package = Features
+dependencies[] = features
+dependencies[] = menu
+features[features_api][] = api:2
+features[menu_custom][] = main-menu
+features[menu_links][] = main-menu_about-us:http://www.pushyaconsulting.com/about-us
+features[menu_links][] = main-menu_contact-us:node/21
+features[menu_links][] = main-menu_home:http://www.pushyaconsulting.com
+features[menu_links][] = main-menu_jobs:http://www.pushyaconsulting.com/jobs
+features[menu_links][] = main-menu_resources:node/13
+features[menu_links][] = main-menu_services:http://www.pushyaconsulting.com/services
