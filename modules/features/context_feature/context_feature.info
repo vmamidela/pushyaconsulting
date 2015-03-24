@@ -1,0 +1,16 @@
+name = Context_Feature
+description = Context_Feature
+core = 7.x
+package = Features
+dependencies[] = block
+dependencies[] = context
+dependencies[] = ctools
+dependencies[] = views
+dependencies[] = webform
+features[context][] = about-us
+features[context][] = contact-us
+features[context][] = frontpage_banner_slider
+features[context][] = jobs
+features[context][] = submit-cv
+features[ctools][] = context:context:3
+features[features_api][] = api:2

@@ -1,0 +1,7 @@
+name = Image_style_feature
+core = 7.x
+package = Features
+dependencies[] = image
+features[features_api][] = api:2
+features[image][] = banner_slideshow
+features[image][] = fronpageblock
