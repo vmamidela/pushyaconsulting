@@ -5,9 +5,8 @@ base theme = business_responsive_theme
 version = "7.x-1.2"
 
 engine = phptemplate
-stylesheets[all][] = style.css
-stylesheets[all][] = media.css
-scripts[] = js/custom.js
+stylesheets[all][] = pushya_style.css
+stylesheets[all][] = pushya_media.css
 
 regions[sidebar_first]  = First Sidebar
 regions[sidebar_second] = Second Sidebar
