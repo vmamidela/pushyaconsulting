@@ -1,0 +1,104 @@
+#content .view-frontpage-blocks-view {
+ width: 97% ;
+ margin-left: auto;
+ margin-right: auto;
+
+}
+#content .view-frontpage-blocks-view .view-content {
+  width: 104%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#content .view-frontpage-blocks-view .views-row {
+  float: left;
+  width: 292px;
+  background-color: #E5E5E6;
+  background-image: url("../../files//images/grey-grad-box.gif");
+  background-position: center top;
+  background-repeat: repeat-x;
+  box-shadow: 0px 0px 8px #C7C5C5;
+  margin-right: 22px;
+  margin-bottom: 12px
+}
+
+#content .view-frontpage-blocks-view .views-row .views-field {
+  float: left;
+}
+
+#content .view-frontpage-blocks-view .views-row .views-field-title a {
+  color: #800000;
+}
+
+#content .view-frontpage-blocks-view .views-row .views-field-body {
+  width: 58%;
+  line-height: 14px;
+  margin-top: 3%;
+}
+
+#content .view-frontpage-blocks-view .views-row .views-field-body p {
+  margin-bottom: 0px
+}
+
+#content .view-frontpage-blocks-view .views-row .views-field-body a {
+  float: right;
+}
+
+#content .view-frontpage-blocks-view .views-row .views-field-title {
+  margin-left: 7%;
+  font-size: 11px;
+  line-height: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: 2px solid #800000;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+#content .view-frontpage-blocks-view .views-row .views-field .views-field-field-frontpageimage img {
+  margin-left: 1%;
+  margin-top: 1%;
+}
+
+#content .view-content  .views-row .views-field-field-frontpageimage {
+  margin-right: 2%;
+}
+
+#container #content .content .webform-client-form .form-item label {
+  width: 13%;
+  float: left;
+  display: inline-block;
+}
+
+#container #content .content .field .field-items .field-item img {
+  width: 50%;
+  float: left;
+  margin-right: 1%;
+  margin-bottom: 1%;
+}
+
+#container #content #content_top .view-frontpage-slideshow .skin-default {
+  width: 957px;
+  background-color: #E5E5E6;
+  background-image: url("../../files//images/grey-grad-box.gif");
+  background-position: center top;
+  background-repeat: repeat-x;
+  box-shadow: -3px 0px 3px rgb(199, 197, 197);
+}
+
+#container #content #post-content .region .block-views .content .view-content table  {
+  float: left;
+}
+
+#container #content #post-content .region .block-views .content .view-content table  thead .views-field {
+  background-color: #1C2D5F;
+  font-size: 10px;
+  text-shadow: 0px 0px #FFF;
+  text-align: center;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#container #content #post-content .region .block-views .content .view-content table  tbody .odd .views-field {
+  background-color: #FCFCFC;
+}
+
