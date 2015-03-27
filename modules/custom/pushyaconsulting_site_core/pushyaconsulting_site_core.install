@@ -22,11 +22,15 @@ theme_enable(array(
 variable_set('admin_theme', 'bartik');
 variable_set('theme_default', 'pushya_theme');
 variable_set('site_frontpage', 'home');
+module_enable(array('views_slideshow'));
+module_enable(array('views_slideshow_cycle'));
+module_enable(array('views_ui'));
+module_enable(array('context_ui'));
 module_enable(array('contenttypes'));
 module_enable(array('contactus'));
 module_enable(array('context_feature')); 
 module_enable(array('frontpage_views_features'));  
 module_enable(array('image_style_feature'));
-module_enable(array('menulinks_features/'));
+module_enable(array('menulinks_features'));
 }
 
