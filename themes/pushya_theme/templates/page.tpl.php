@@ -69,12 +69,12 @@
   <div id="inner_header_wrapper">
 
     <header id="header" role="banner">
-      <?php if (theme_get_setting('social_links', 'business_responsive_theme')): ?>
+      <?php if (theme_get_setting('social_links', 'pushya_theme')): ?>
       <div class="social-icons">
        <ul>
         <li><a href="<?php print $front_page; ?>/rss.xml"><img src="<?php print base_path() . drupal_get_path('theme', 'business_responsive_theme') . '/images/rss.png'; ?>" alt="RSS Feed"/></a></li>
-        <li><a href="http://www.facebook.com/<?php echo theme_get_setting('facebook_username', 'business_responsive_theme'); ?>" target="_blank" rel="me"><img src="<?php print base_path() . drupal_get_path('theme', 'business_responsive_theme') . '/images/facebook.png'; ?>" alt="Facebook"/></a></li>
-        <li><a href="http://www.twitter.com/<?php echo theme_get_setting('twitter_username', 'business_responsive_theme'); ?>" target="_blank" rel="me"><img src="<?php print base_path() . drupal_get_path('theme', 'business_responsive_theme') . '/images/twitter.png'; ?>" alt="Twitter"/></a></li>
+        <li><a href="http://www.facebook.com/<?php echo theme_get_setting('facebook_username', 'pushya_theme'); ?>" target="_blank" rel="me"><img src="<?php print base_path() . drupal_get_path('theme', 'business_responsive_theme') . '/images/facebook.png'; ?>" alt="Facebook"/></a></li>
+        <li><a href="http://www.twitter.com/<?php echo theme_get_setting('twitter_username', 'pushya_theme'); ?>" target="_blank" rel="me"><img src="<?php print base_path() . drupal_get_path('theme', 'business_responsive_theme') . '/images/twitter.png'; ?>" alt="Twitter"/></a></li>
        </ul>
       </div>
     <?php endif; ?>
@@ -134,7 +134,7 @@
     <div class="content-sidebar-wrap">
 
     <div id="content">
-      <?php if (theme_get_setting('breadcrumbs', 'business_responsive_theme')): ?><div id="breadcrumbs"><?php if ($breadcrumb): print $breadcrumb; endif;?></div><?php endif; ?>
+      <?php if (theme_get_setting('breadcrumbs', 'pushya_theme')): ?><div id="breadcrumbs"><?php if ($breadcrumb): print $breadcrumb; endif;?></div><?php endif; ?>
       <section id="post-content" role="main">
         <?php print $messages; ?>
         <?php if ($page['content_top']): ?><div id="content_top"><?php print render($page['content_top']); ?></div><?php endif; ?>

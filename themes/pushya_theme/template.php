@@ -27,7 +27,7 @@ function pushya_theme_breadcrumb($variables) {
 /**
  * Override or insert variables into the page template.
  */
-function pushya_theme_preprocess_page(&$vars) {
+function pushya_theme_preprocess_page_x(&$vars) {
   if (isset($vars['main_menu'])) {
     $vars['main_menu'] = theme('links__system_main_menu', array(
       'links' => $vars['main_menu'],
