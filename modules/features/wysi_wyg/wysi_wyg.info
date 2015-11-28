@@ -9,5 +9,5 @@ features[filter][] = filtered_html
 features[filter][] = full_html
 features[filter][] = plain_text
 features[wysiwyg][] = filtered_html
-features[wysiwyg][] = full_html
 features[wysiwyg][] = plain_text
+mtime = 1448740935

@@ -76,7 +76,7 @@ $webforms = array();
     ),
   ),
   'webform' => array(
-    'next_serial' => 3,
+    'next_serial' => 8,
     'confirmation' => '',
     'confirmation_format' => 'filtered_html',
     'redirect_url' => '<confirmation>',
